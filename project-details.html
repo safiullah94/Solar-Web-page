@@ -1,0 +1,1008 @@
+<!doctype html>
+<html lang="en">
+  
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SolarSux - High-efficiency solar panels and sustainable energy solutions for residential and commercial systems. Get a clean energy quote today."
+    />
+    <meta
+      name="keywords"
+      content="solar, clean energy, solar panels, sustainable energy, green power, SolarSux"
+    />
+    <meta name="author" content="SolarSux Team" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/logo/favicon.png"
+    />
+    <title>SolarSux - Premium Solar & Energy Solutions</title>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- ==========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================== -->
+    <header class="site-header" id="main-header">
+      <div class="container">
+        <!-- Brand Logo -->
+        <a href="index.html" class="logo" id="header-logo">
+          <img
+            src="assets/images/logo/logo.png"
+            alt="SolarSux Logo"
+            class="logo-img"
+          />
+          SOLARSUX
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button
+          class="mobile-toggle"
+          id="mobile-menu-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-capsule"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- Nav Menu Capsule -->
+        <nav class="nav-menu-capsule" id="nav-capsule">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="projects.html" class="nav-link">Projects</a>
+
+          <!-- Pages Dropdown -->
+          <div class="nav-item-dropdown">
+            <div class="nav-link dropdown-toggle" id="pages-dropdown-toggle">
+              Pages
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-down-icon lucide-chevron-down chevron-icon"
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </div>
+            <ul class="dropdown-menu" aria-labelledby="pages-dropdown-toggle">
+              <li><a href="about.html" class="dropdown-item">About Us</a></li>
+              <li><a href="blogs.html" class="dropdown-item">Blogs</a></li>
+              <li><a href="quote.html" class="dropdown-item">Quote</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Right Header Actions -->
+        <div class="header-actions" id="header-actions">
+          <!-- Contact CTA (Phone Icon + Text) -->
+          <a href="contact.html" class="btn btn-dark" id="btn-dark-action">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-phone-icon lucide-phone"
+            >
+              <path
+                d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+              />
+            </svg>
+            Contact
+          </a>
+
+          <!-- Get Quote CTA (Text + Arrow Circle) -->
+          <a href="quote.html" class="btn btn-quote" id="btn-quote-action">
+            Get Quote
+            <span class="arrow-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+              >
+                <path d="M7 7h10v10" />
+                <path d="M7 17 17 7" />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <!-- Backdrop Overlay for Mobile Drawer -->
+        <div class="mobile-overlay" id="mobile-menu-overlay"></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==========================================================================
+     PAGE HERO
+     ========================================================================== -->
+      <section class="page-hero" id="page-hero">
+        <!-- Background Image -->
+        <img
+          src="assets/images/project-details-page/banner-project-details.jpg"
+          alt="Solar powered modern home"
+          class="page-hero-bg"
+        />
+
+        <!-- Overlay -->
+        <div class="page-hero-overlay"></div>
+
+        <div class="container">
+          <!-- Left: Badge + Title -->
+          <div class="page-hero-left">
+            <div class="hero-badge">
+              <span class="badge-text">Our Solutions</span>
+              <span class="badge-line"></span>
+              <span class="badge-dot"></span>
+            </div>
+            <h1 class="page-hero-title">
+              Beverly Hills<br />
+              Solar Estate
+            </h1>
+          </div>
+
+          <!-- Right: Breadcrumb + Description -->
+          <div class="page-hero-right">
+            <div class="page-hero-breadcrumb">
+              <a href="index.html" class="breadcrumb-link">Home</a>
+              <span class="breadcrumb-sep">›</span>
+              <a href="projects.html" class="breadcrumb-link">Projects</a>
+              <span class="breadcrumb-sep">›</span>
+              <span class="breadcrumb-current">Project Details</span>
+            </div>
+            <p class="page-hero-desc">
+              Explore 2,800+ completed solar installations worldwide. From
+              residential rooftops to industrial megawatts,we're powering the
+              future globally.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+     CASE STUDY SECTION
+     ========================================================================== -->
+      <section class="section" id="case-study">
+        <div class="container">
+          <div class="case-study-layout">
+            <!-- ── LEFT COLUMN ── -->
+            <div class="case-study-left">
+              <!-- Badge + Title -->
+              <div>
+                <div class="section-badge">
+                  <span class="badge-text">THE CONCEPT</span>
+                  <span class="badge-line"></span>
+                  <span class="badge-dot"></span>
+                </div>
+                <h2 class="section-title" style="margin-bottom: 0">
+                  Luxury Energy<br />
+                  <span class="highlight-text">Independence</span>
+                </h2>
+              </div>
+
+              <!-- Stat Cards Row -->
+              <div class="case-study-stats-row">
+                <div class="case-study-stat-card">
+                  <div class="case-study-stat-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polygon
+                        points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                      />
+                    </svg>
+                  </div>
+                  <div class="case-study-stat-body">
+                    <span class="case-study-stat-label">Capacity</span>
+                    <span class="case-study-stat-value">12 kW</span>
+                  </div>
+                </div>
+                <div class="case-study-stat-card">
+                  <div class="case-study-stat-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <line x1="12" x2="12" y1="2" y2="22" />
+                      <path
+                        d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                      />
+                    </svg>
+                  </div>
+                  <div class="case-study-stat-body">
+                    <span class="case-study-stat-label">Savings</span>
+                    <span class="case-study-stat-value">$1,440/yr</span>
+                  </div>
+                </div>
+                <div class="case-study-stat-card">
+                  <div class="case-study-stat-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                      <polyline points="16 7 22 7 22 13" />
+                    </svg>
+                  </div>
+                  <div class="case-study-stat-body">
+                    <span class="case-study-stat-label">ROI</span>
+                    <span class="case-study-stat-value">4.5 Years</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Description -->
+              <p class="case-study-desc">
+                Premium residential solar system with battery backup and smart
+                grid integration. Reducing monthly electricity costs by 85%
+                while maintaining luxury lifestyle standards. This installation
+                features high-efficiency monocrystalline panels and a
+                state-of-the-art battery storage system, ensuring the estate
+                remains powered during grid outages while significantly reducing
+                its carbon footprint.
+              </p>
+
+              <!-- Impact Analysis Card -->
+              <div class="impact-analysis-card">
+                <div class="impact-analysis-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                    <path d="M2 12h20" />
+                  </svg>
+                </div>
+                <div class="impact-analysis-badge">
+                  <span></span>
+                  Impact Analysis
+                </div>
+                <h3 class="impact-analysis-title">
+                  Carbon Neutrality Achieved
+                </h3>
+                <div class="impact-progress-list">
+                  <div class="impact-progress-item">
+                    <div class="impact-progress-header">
+                      <span class="impact-progress-label">Energy Autonomy</span>
+                      <span class="impact-progress-value">100%</span>
+                    </div>
+                    <div class="impact-progress-track">
+                      <div
+                        class="impact-progress-fill"
+                        style="width: 100%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="impact-progress-item">
+                    <div class="impact-progress-header">
+                      <span class="impact-progress-label"
+                        >Grid Independence</span
+                      >
+                      <span class="impact-progress-value">98.4%</span>
+                    </div>
+                    <div class="impact-progress-track">
+                      <div
+                        class="impact-progress-fill"
+                        style="width: 98.4%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Challenge Card -->
+              <div class="case-content-card">
+                <div class="case-content-step">
+                  <span></span>
+                  01 / The Challenge
+                </div>
+                <h3 class="case-content-title">
+                  High Demand.<br />Unstable Grid.
+                </h3>
+                <p class="case-content-desc">
+                  The estate's massive energy footprint created a dependency on
+                  an aging grid, leading to frequent outages and astronomical
+                  costs.
+                </p>
+                <div class="case-mini-stats">
+                  <div class="case-mini-stat">
+                    <div class="case-mini-stat-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                        <polyline points="16 7 22 7 22 13" />
+                      </svg>
+                    </div>
+                    <span class="case-mini-stat-value">$2.2k</span>
+                    <span class="case-mini-stat-label">Monthly Cost</span>
+                  </div>
+                  <div class="case-mini-stat">
+                    <div class="case-mini-stat-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                      </svg>
+                    </div>
+                    <span class="case-mini-stat-value">12+</span>
+                    <span class="case-mini-stat-label">Annual Outages</span>
+                  </div>
+                  <div class="case-mini-stat">
+                    <div class="case-mini-stat-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <circle cx="12" cy="12" r="10" />
+                        <polyline points="12 6 12 12 16 14" />
+                      </svg>
+                    </div>
+                    <span class="case-mini-stat-value">High</span>
+                    <span class="case-mini-stat-label">Grid Dependency</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Solution Card -->
+              <div class="case-content-card case-content-card--solution">
+                <div class="case-content-step">
+                  <span></span>
+                  02 / The Solution
+                </div>
+                <h3 class="case-content-title">
+                  Hybrid Power.<br />Full Control.
+                </h3>
+                <p class="case-content-desc">
+                  A bespoke 12kW ecosystem designed for zero-latency backup and
+                  maximum efficiency, achieving total grid independence.
+                </p>
+                <div class="case-mini-stats">
+                  <div class="case-mini-stat">
+                    <div class="case-mini-stat-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                      </svg>
+                    </div>
+                    <span class="case-mini-stat-value">AI Managed</span>
+                    <span class="case-mini-stat-label">Optimization</span>
+                  </div>
+                  <div class="case-mini-stat">
+                    <div class="case-mini-stat-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                      </svg>
+                    </div>
+                    <span class="case-mini-stat-value">Backup Ready</span>
+                    <span class="case-mini-stat-label">Zero Latency</span>
+                  </div>
+                  <div class="case-mini-stat">
+                    <div class="case-mini-stat-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3"
+                        />
+                        <path d="M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4" />
+                        <path d="M5 21h14" />
+                      </svg>
+                    </div>
+                    <span class="case-mini-stat-value">92% Savings</span>
+                    <span class="case-mini-stat-label">Independence</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Details List -->
+              <div class="case-details-list">
+                <div class="case-detail-item">
+                  <div class="case-detail-label-row">
+                    <span class="case-detail-dot"></span>
+                    <span class="case-detail-label">Client</span>
+                  </div>
+                  <span class="case-detail-value">Mr. Rahman</span>
+                </div>
+                <div class="case-detail-item">
+                  <div class="case-detail-label-row">
+                    <span class="case-detail-dot"></span>
+                    <span class="case-detail-label">Budget</span>
+                  </div>
+                  <span class="case-detail-value">$85,000</span>
+                </div>
+                <div class="case-detail-item">
+                  <div class="case-detail-label-row">
+                    <span class="case-detail-dot"></span>
+                    <span class="case-detail-label">Timeline</span>
+                  </div>
+                  <span class="case-detail-value">4 Weeks</span>
+                </div>
+                <div class="case-detail-item">
+                  <div class="case-detail-label-row">
+                    <span class="case-detail-dot"></span>
+                    <span class="case-detail-label">Team</span>
+                  </div>
+                  <span class="case-detail-value"
+                    >Lead: Sarah Jenkins, Engineering: SolarSux
+                    Residential</span
+                  >
+                </div>
+                <div class="case-detail-item">
+                  <div class="case-detail-label-row">
+                    <span class="case-detail-dot"></span>
+                    <span class="case-detail-label">Awards</span>
+                  </div>
+                  <span class="case-detail-value"
+                    >Best Residential Solar Design 2024</span
+                  >
+                </div>
+              </div>
+
+              <!-- See Next Project -->
+              <div class="case-study-next">
+                <a href="projects.html" class="btn btn-focused">
+                  SEE ALL PROJECTS
+                  <span class="arrow-circle">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M7 7h10v10" />
+                      <path d="M7 17 17 7" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <!-- ── RIGHT COLUMN ── -->
+            <div class="case-study-right">
+              <!-- Chart Card -->
+              <div class="case-chart-card">
+                <div class="case-chart-header">
+                  <div>
+                    <div class="case-chart-badge">Real-Time Performance</div>
+                    <h3 class="case-chart-title">Energy Orchestration</h3>
+                  </div>
+                  <div class="case-chart-legend">
+                    <div class="case-chart-legend-item">
+                      <span
+                        class="case-chart-legend-dot case-chart-legend-dot--green"
+                      ></span>
+                      Generation
+                    </div>
+                    <div class="case-chart-legend-item">
+                      <span
+                        class="case-chart-legend-dot case-chart-legend-dot--muted"
+                      ></span>
+                      Consumption
+                    </div>
+                  </div>
+                </div>
+                <canvas class="case-chart-canvas" id="energyChart"></canvas>
+              </div>
+
+              <!-- Testimonial Card -->
+              <div class="case-testimonial-card">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-quote-icon lucide-quote"
+                >
+                  <path
+                    d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                  />
+                  <path
+                    d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                  />
+                </svg>
+                <span class="badge-line-testimonial"></span>
+                <blockquote class="case-testimonial-quote">
+                  "The system is incredible. We hardly notice it's there, but
+                  our energy bills have plummeted. It's the perfect addition to
+                  our home."
+                </blockquote>
+                <div class="case-testimonial-author">
+                  <img
+                    src="assets/images/project-details-page/person-review.jpg"
+                    alt="Mr. Zakir Hossain"
+                    class="case-testimonial-avatar"
+                  />
+                  <div>
+                    <div class="case-testimonial-name">Mr. Zakir Hossain</div>
+                    <div class="case-testimonial-role">Estate Owner</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Image Card 1 -->
+              <div class="case-image-card">
+                <img
+                  src="assets/images/project-details-page/img-1.jpg"
+                  alt="Rooftop Array"
+                />
+                <div class="case-image-pill">
+                  <span class="case-image-pill-dot"></span>
+                  <span>Rooftop Array</span>
+                </div>
+              </div>
+
+              <!-- Image Card 2 -->
+              <div class="case-image-card">
+                <img
+                  src="assets/images/project-details-page/img-2.jpg"
+                  alt="Battery System"
+                />
+                <div class="case-image-pill">
+                  <span class="case-image-pill-dot"></span>
+                  <span>Battery System</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+    <footer class="site-footer" id="footer">
+      <div class="container">
+        <!-- CTA Band -->
+        <div class="footer-cta">
+          <!-- Left -->
+          <div class="footer-cta-left">
+            <div class="footer-cta-badge">
+              <span class="badge-dot"></span>
+              <span>GET STARTED</span>
+            </div>
+            <h2 class="footer-cta-title">
+              Power Your<br />
+              <span class="highlight-text">Home with Solarsux?</span>
+            </h2>
+            <div class="footer-cta-stats">
+              <div class="footer-stat">
+                <span class="footer-stat-value">12K+</span>
+                <span class="footer-stat-label">Installs</span>
+              </div>
+              <div class="footer-stat">
+                <span class="footer-stat-value text-green">98%</span>
+                <span class="footer-stat-label">Satisfaction</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right -->
+          <div class="footer-cta-right">
+            <p class="footer-cta-desc">
+              Join thousands of homeowners worldwide saving money with clean,
+              renewable energy.
+            </p>
+
+            <a href="quote.html" class="btn btn-focused">
+              GET QUOTE
+              <span class="arrow-circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" />
+                </svg>
+              </span>
+            </a>
+
+            <!-- Happy Clients Row -->
+            <div class="footer-clients-row">
+              <div class="avatar-stack">
+                <img
+                  src="assets/images/home-page/about-us-avatar-1.png"
+                  alt="Client"
+                  class="avatar-img"
+                />
+                <img
+                  src="assets/images/home-page/about-us-avatar-2.png"
+                  alt="Client"
+                  class="avatar-img"
+                />
+                <img
+                  src="assets/images/home-page/about-us-avatar-3.png"
+                  alt="Client"
+                  class="avatar-img"
+                />
+                <img
+                  src="assets/images/home-page/about-us-avatar-4.png"
+                  alt="Client"
+                  class="avatar-img"
+                />
+              </div>
+              <div class="footer-clients-info">
+                <span class="footer-clients-count">12,000+</span>
+                <span class="footer-clients-label">Happy Clients</span>
+              </div>
+              <div class="footer-clients-check">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Body -->
+        <div class="footer-body">
+          <div class="footer-body-card">
+            <!-- Col 1: Brand + Newsletter -->
+            <div class="footer-col">
+              <div class="footer-brand">
+                <a href="index.html" class="footer-logo">
+                  <div class="footer-logo-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="4" />
+                      <path d="M12 2v2" />
+                      <path d="M12 20v2" />
+                      <path d="m4.93 4.93 1.41 1.41" />
+                      <path d="m17.66 17.66 1.41 1.41" />
+                      <path d="M2 12h2" />
+                      <path d="M20 12h2" />
+                      <path d="m6.34 17.66-1.41 1.41" />
+                      <path d="m19.07 4.93-1.41 1.41" />
+                    </svg>
+                  </div>
+                  SOLARSUX
+                </a>
+                <p class="footer-brand-desc">
+                  Clean energy solutions for<br />modern homes worldwide.
+                </p>
+                <div class="footer-newsletter">
+                  <div class="footer-newsletter-label">
+                    <span class="badge-dot"></span>
+                    JOIN NEWSLETTER
+                  </div>
+                  <div class="footer-newsletter-form">
+                    <input
+                      type="email"
+                      class="footer-newsletter-input"
+                      placeholder="Enter your email"
+                    />
+                    <button
+                      class="footer-newsletter-btn"
+                      aria-label="Subscribe"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                      </svg>
+                    </button>
+                  </div>
+                  <span class="footer-newsletter-note"
+                    >No spam. Only pure energy updates.</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Col 2: Our Solutions -->
+            <div class="footer-col">
+              <div class="footer-col-heading">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="18" height="18" x="3" y="3" rx="2" />
+                  <path d="M9 3v18" />
+                  <path d="M15 3v18" />
+                  <path d="M3 9h18" />
+                  <path d="M3 15h18" />
+                </svg>
+                Our Solutions
+              </div>
+              <ul class="footer-links">
+                <li>
+                  <a href="projects.html" class="footer-link">Solar Panels</a>
+                </li>
+                <li>
+                  <a href="services.html" class="footer-link"
+                    >Home Installation</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html" class="footer-link"
+                    >Energy Storage</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html" class="footer-link">Solar Battery</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="footer-link"
+                    >Free Consultation</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Col 3: Support & Help -->
+            <div class="footer-col">
+              <div class="footer-col-heading">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                  <path d="M12 17h.01" />
+                </svg>
+                Support &amp; Help
+              </div>
+              <ul class="footer-links">
+                <li>
+                  <a href="projects.html" class="footer-link">Our Projects</a>
+                </li>
+                <li>
+                  <a href="about.html" class="footer-link">Expert Team</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="footer-link">Help Center</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="footer-link"
+                    >Customer Login</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html" class="footer-link">Join Our Team</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Col 4: Our Office -->
+            <div class="footer-col">
+              <div class="footer-col-heading">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                Our Office
+              </div>
+              <p class="footer-address">
+                350 Fifth Avenue, Suite 7400<br />
+                New York, NY 10118, USA
+              </p>
+              <p class="footer-social-label">Connect With Us</p>
+              <div class="footer-social-icons">
+                <a
+                  href="https://www.facebook.com/"
+                  class="footer-social-icon"
+                  aria-label="Facebook"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer-social-icon"
+                  aria-label="Instagram"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect width="20" height="20" x="2" y="2" rx="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                  </svg>
+                </a>
+                <a
+                  href="https://www.linkedin.com/"
+                  class="footer-social-icon"
+                  aria-label="LinkedIn"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                    />
+                    <rect width="4" height="12" x="2" y="9" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+          <span class="footer-copyright"
+            >© 2026 S@fi's Design. All rights reserved.</span
+          >
+          <div class="footer-bottom-links">
+            <a href="blank-content.html" class="footer-bottom-link"
+              >Privacy</a
+            >
+            <a href="blank-content.html" class="footer-bottom-link">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Controller -->
+    <script src="assets/vendor/anime-js/anime.min.js"></script>
+    <script src="assets/script/main.js"></script>
+  </body>
+
+
+</html>
